@@ -1,59 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import GitHubProjectCard from './GitHubProjectCard';
+import React from 'react';
+import bloodflow from '../assets/bloodflowBackground.jpg'
+import steamLogo from '../assets/steam.png'
 
-interface GitHubProject {
-  id: number;
-  name: string;
-  description: string;
-  html_url: string;
-  language: string;
-  stargazers_count: number;
-}
-
-const ProjectsSection: React.FC = () => {
-  const [projects, setProjects] = useState<GitHubProject[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      try {
-        const response = await fetch('https://api.github.com/users/undadedigit/repos?sort=updated&per_page=6');
-        if (!response.ok) {
-          throw new Error('Failed to fetch projects');
-        }
-        const data = await response.json();
-        setProjects(data);
-        setLoading(false);
-      } catch (err) {
-        setError('Failed to load projects. Please try again later.');
-        setLoading(false);
-      }
-    };
-
-    fetchProjects();
-  }, []);
-
-  if (loading) {
-    return <div>Loading projects...</div>;
-  }
-
-  if (error) {
-    return <div>{error}</div>;
-  }
-
+const BloodflowSection: React.FC = () => {
   return (
-    <section id="projects" className="py-16 bg-gray-100">
+    <section id="projects" className="bg-gray-100 py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">My GitHub Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <GitHubProjectCard key={project.id} {...project} />
-          ))}
+      <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div className='game'>
+          <a href="https://store.steampowered.com/app/3151100/Bloodflow/" target="_blank"><img className='img' src={bloodflow.src} width={'450px'}/></a>
+          <div className='description'>
+          <h2 className="text-3xl font-bold mb-8">Bloodflow</h2>
+          <p>Bloodflow is a fast-paced third-person brawler, featuring stylish combat and vibrant colours. Put your timing, target prioritisation and positioning skills to the test and lock into the flow state to achieve mastery.</p>
+          <br/>
+          <a href="https://store.steampowered.com/app/3151100/Bloodflow/" target="_blank" className="text-xl mb-8">
+            <div className='logo'>
+              <img className='img' src={steamLogo.src} width={'32px'}/>
+              <p className='link'>Available on Steam</p>
+            </div>
+          </a>
+          </div>
         </div>
       </div>
     </section>
   );
 };
 
-export default ProjectsSection;
+export default BloodflowSection;

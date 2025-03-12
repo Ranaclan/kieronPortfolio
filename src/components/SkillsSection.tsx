@@ -4,9 +4,9 @@ import SkillTag from './SkillTag';
 const SkillsSection: React.FC = () => {
   const skills = [
     { name: 'C#', level: 'expert' },
-    { name: 'React', level: 'expert' },
-    { name: 'TypeScript', level: 'intermediate' },
-    { name: 'Astro', level: 'intermediate' },
+    { name: 'Python', level: 'expert' },
+    { name: 'Git', level: 'expert' },
+    { name: 'Unity', level: 'expert' },
     { name: 'HTML/CSS', level: 'expert' },
     // { name: 'Node.js', level: 'intermediate' },
     // { name: 'GraphQL', level: 'beginner' },
