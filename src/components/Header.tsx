@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           <li><a href="/kieronPortfolio/" className="hover:text-gray-300 transition-colors">About</a></li>
           <li><a href="/kieronPortfolio/#skills" className="hover:text-gray-300 transition-colors">Skills</a></li>
           <li><a href="/kieronPortfolio/#projects" className="hover:text-gray-300 transition-colors">Projects</a></li>
-          <li><a href="kieronPortfolio/public/KieronRanaCV.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">CV</a></li>
+          <li><a href="public/KieronRanaCV.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">CV</a></li>
           <li><a href="https://www.linkedin.com/in/kieronrana/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">LinkedIn</a></li>
           <li><a href="mailto:kieronrana@gmail.com" target="_blank"  className="hover:text-gray-300 transition-colors">Contact</a></li>
         </ul>
