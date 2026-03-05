@@ -23,9 +23,7 @@ const ProjectsSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-
-    <section id="projects" className="bg-gray-100 py-20">
+      <br>
       <div className="container mx-auto">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
         <div className='game'>
