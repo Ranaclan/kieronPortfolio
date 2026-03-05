@@ -1,5 +1,5 @@
 import React from 'react';
-import trinketsAndGunpowder from '../assets/trinketsAndGunpowder.jpg'
+import trinketsAndGunpowder from '../assets/trinketsAndGunpowder.png'
 import bloodflow from '../assets/bloodflowBackground.jpg'
 import steamLogo from '../assets/steam.png'
 
