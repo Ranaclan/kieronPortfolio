@@ -22,9 +22,6 @@ const ProjectsSection: React.FC = () => {
           </a>
           </div>
         </div>
-      </div>
-      <div className="container mx-auto">
-      <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
         <div className='game'>
           <a href="https://store.steampowered.com/app/3151100/Bloodflow/" target="_blank"><img className='img' src={bloodflow.src} width={'450px'}/></a>
           <div className='description'>
