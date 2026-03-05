@@ -23,7 +23,6 @@ const ProjectsSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <br>
       <div className="container mx-auto">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
         <div className='game'>
