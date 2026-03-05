@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "src\\pages\\index.astro",
               "ToolTip": "C:\\Users\\kiero\\source\\repos\\website\\kieronPortfolio\\src\\pages\\index.astro",
               "RelativeToolTip": "src\\pages\\index.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-05T20:59:45.674Z"
+              "WhenOpened": "2026-03-05T20:59:45.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "src\\components\\ProjectsSection.tsx",
               "ToolTip": "C:\\Users\\kiero\\source\\repos\\website\\kieronPortfolio\\src\\components\\ProjectsSection.tsx",
               "RelativeToolTip": "src\\components\\ProjectsSection.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-03-04T17:24:30.571Z",
               "EditorCaption": ""

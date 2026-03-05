@@ -3,7 +3,7 @@ import trinketsAndGunpowder from '../assets/trinketsAndGunpowder.png'
 import bloodflow from '../assets/bloodflowBackground.jpg'
 import steamLogo from '../assets/steam.png'
 
-const TrinketsSection: React.FC = () => {
+const ProjectsSection: React.FC = () => {
   return (
     <section id="projects" className="bg-gray-100 py-20">
       <div className="container mx-auto">
@@ -24,12 +24,7 @@ const TrinketsSection: React.FC = () => {
         </div>
       </div>
     </section>
-  );
-};
 
-
-const BloodflowSection: React.FC = () => {
-  return (
     <section id="projects" className="bg-gray-100 py-20">
       <div className="container mx-auto">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
@@ -52,4 +47,4 @@ const BloodflowSection: React.FC = () => {
   );
 };
 
-export default TrinketsSection;
+export default ProjectsSection;
