@@ -27,7 +27,6 @@ const TrinketsSection: React.FC = () => {
   );
 };
 
-export default TrinketsSection;
 
 const BloodflowSection: React.FC = () => {
   return (
@@ -53,4 +52,4 @@ const BloodflowSection: React.FC = () => {
   );
 };
 
-export default BloodflowSection;
+export default TrinketsSection;
