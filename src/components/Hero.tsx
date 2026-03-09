@@ -10,6 +10,9 @@ const Hero: React.FC = () => {
           Get in Touch
         </a>
         <br />
+        <br />
+        <br />
+        <br />
         <a href="https://discord.gg/p65sBa7Et2" target="_blank" className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-colors">
           Discord
         </a>
